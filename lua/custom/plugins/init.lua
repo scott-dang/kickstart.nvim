@@ -8,5 +8,6 @@ return {
 		dependencies = {
 			'nvim-tree/nvim-web-devicons'
 		}
-	}
+	},
+	'mfussenegger/nvim-jdtls'
 }

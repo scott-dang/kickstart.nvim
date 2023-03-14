@@ -414,9 +414,9 @@ end
 local servers = {
   -- clangd = {},
   -- gopls = {},
-  -- pyright = {},
+   pyright = {},
   -- rust_analyzer = {},
-  -- tsserver = {},
+  tsserver = {},
 
   lua_ls = {
     Lua = {
@@ -500,6 +500,9 @@ cmp.setup {
 
 -- nvim-tree setup
 require('nvim-tree').setup({})
+
+-- nvim-jdtls
+
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
